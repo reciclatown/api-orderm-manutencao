@@ -6,9 +6,15 @@ services:
     ports:
       - 27017:27017
     command: --smallfiles
+  kafka:
+    image: spotify/kafka
+    container_name: "kakfa-api"
+    ports:
+      - 9092:9092
   app:
     image: reciclatown/api-ordem-manutencao
     ports:
       - 10001:10001
     links:
       - mongodb
+      - kafka

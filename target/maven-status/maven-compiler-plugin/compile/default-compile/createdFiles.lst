@@ -1,0 +1,6 @@
+com/reciclatown/repository/OrdemManutencaoRepository.class
+com/reciclatown/Application.class
+com/reciclatown/controller/OrdemManutencaoController.class
+com/reciclatown/kafka/ProducerKafka.class
+com/reciclatown/model/OrdemManutencao.class
+com/reciclatown/swagger/SwaggerConfig.class

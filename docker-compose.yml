@@ -1,14 +1,14 @@
 version: "3"
 services:
-  mongodb:
+  mongodb-ordem-manutencao:
     image: mongo:3.2.4
     container_name: "mongodb"
     ports:
-      - 27017:27017
+      - 27018:27017
     command: --smallfiles
   app:
     image: gabrielsouzaa/api-ordem-manutencao
     ports:
       - 10002:10002
     links:
-      - mongodb
+      - mongodb-ordem-manutencao

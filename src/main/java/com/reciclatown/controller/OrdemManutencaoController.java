@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin
 @Api(value = "OrdensManutencao")
 public class OrdemManutencaoController {
 

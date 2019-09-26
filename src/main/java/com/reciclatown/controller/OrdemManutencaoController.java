@@ -1,6 +1,5 @@
 package com.reciclatown.controller;
 
-import com.reciclatown.kafka.ProducerKafka;
 import com.reciclatown.model.OrdemManutencao;
 import com.reciclatown.repository.OrdemManutencaoRepository;
 import io.swagger.annotations.Api;
@@ -43,8 +42,6 @@ public class OrdemManutencaoController {
     @ApiOperation(value = "Atualizar dados de uma ordem de manutencao")
     @PutMapping(value = "/ordens_manutencao", consumes = MediaType.APPLICATION_JSON_VALUE)
     public void atualizarDadosDaOrdemManutencao(@RequestBody OrdemManutencao ordemManutencao) {
-        ProducerKafka producerKafka = new ProducerKafka();
-        producerKafka.enviarEventoKafka(bootstrapServer, ordemManutencao);
         repository.save(ordemManutencao);
     }
 

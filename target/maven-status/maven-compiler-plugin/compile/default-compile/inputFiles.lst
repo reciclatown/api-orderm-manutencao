@@ -1,6 +1,5 @@
 /Users/gabrielsouza/Documents/GitHub/api-ordem-manutencao/src/main/java/com/reciclatown/model/OrdemManutencao.java
 /Users/gabrielsouza/Documents/GitHub/api-ordem-manutencao/src/main/java/com/reciclatown/repository/OrdemManutencaoRepository.java
-/Users/gabrielsouza/Documents/GitHub/api-ordem-manutencao/src/main/java/com/reciclatown/kafka/ProducerKafka.java
 /Users/gabrielsouza/Documents/GitHub/api-ordem-manutencao/src/main/java/com/reciclatown/controller/OrdemManutencaoController.java
 /Users/gabrielsouza/Documents/GitHub/api-ordem-manutencao/src/main/java/com/reciclatown/swagger/SwaggerConfig.java
 /Users/gabrielsouza/Documents/GitHub/api-ordem-manutencao/src/main/java/com/reciclatown/Application.java
